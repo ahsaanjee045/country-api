@@ -1,0 +1,53 @@
+.card_container{
+    width: 250px;
+    height: fit-content;
+    background-color: var(--dark_mode_text);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.dark.card_container{
+    background-color: var(--dark_mode_elements);
+    color: var(--dark_mode_text) ;
+}
+
+.card_container .top img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card_container .bottom {
+    padding: 25px 20px;
+}
+
+.card_container a{
+    color: inherit;
+}
+
+.card_container .bottom .country_name{
+    color: var(--light-mode-text);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.card_container .bottom .country_details {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: var(--light-mode-text);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.card_container .bottom .country_details .country_label{
+    color: var(--light-mode-text);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+

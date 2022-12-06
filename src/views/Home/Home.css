@@ -1,0 +1,14 @@
+.home_container {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--light_mode_bg);
+}
+
+.dark.home_container {
+  background-color: var(--dark_mode_bg);
+  color: var(--dark_mode_text);
+}

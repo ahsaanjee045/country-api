@@ -1,0 +1,66 @@
+.topbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.topbar_container .left input{
+    padding: 14px 18px;
+    display: inline-block;
+    width: 500px;
+    border-radius: 3px;
+    border: none;
+    color: var(--light_mode_text);
+    outline: none;
+    background-color: var(--dark_mode_text);
+}
+
+.topbar_container.dark .left input{
+    padding: 14px 18px;
+    display: inline-block;
+    width: 500px;
+    border-radius: 3px;
+    border: none;
+    color: var(--dark_mode_text);
+    outline: none;
+    background-color: var(--dark_mode_elements);
+}
+
+
+
+.topbar_container .left input::placeholder{
+    color: var(--light_mode_text);
+    font-family: var(--font_family);
+    font-size: var(--home-font-sz);
+}
+.topbar_container.dark .left input::placeholder{
+    color: var(--dark_mode_text);
+    font-family: var(--font_family);
+    font-size: var(--home-font-sz);
+}
+
+.topbar_container .right select{
+    padding: 14px 18px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    color: var(--light_mode_text);
+    outline: none;
+    background-color: var(--dark_mode_text);
+}
+.topbar_container.dark .right select{
+    padding: 14px 18px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    color: var(--dark_mode_text);
+    outline: none;
+    background-color: var(--dark_mode_elements);
+}
+
+.topbar_container .right select option{
+    padding: 30px 10px;
+}

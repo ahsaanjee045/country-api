@@ -1,0 +1,23 @@
+.tag_container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* gap: 8px; */
+    width: fit-content;
+    padding : 3px 22px;
+    border: none;
+    outline: none;
+    background-color: var(--dark_mode_text);
+    box-shadow: 0px 1px 6px 2px lightgrey;
+    border-radius: 4px;
+    /* cursor: pointer; */
+    font-size: 13px ;
+    font-weight: 600;
+    margin-inline: 10px ;
+}
+
+.dark.tag_container{
+    background-color: var(--dark_mode_elements);
+    color: var(--dark_mode_text);
+    box-shadow: 4px -2px 37px -6px black;
+}

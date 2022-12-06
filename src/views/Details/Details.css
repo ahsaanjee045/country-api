@@ -1,0 +1,98 @@
+.details_container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 70px 0px;
+    background-color: var(--light_mode_bg);
+    color: var(--light_mode_text);
+    overflow-x: hidden;
+}
+.dark.details_container{
+    background-color: var(--dark_mode_bg);
+    color: var(--dark_mode_text);
+}
+
+.details_container .top_container{
+    width: 100%;
+}
+
+.details_container .bottom_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.details_container .bottom_container .left{
+    max-width: 50%;
+    /* overflow: hidden; */
+}
+.details_container .bottom_container .left img{
+    width: 600px;
+    height: 400px;
+    border: none;
+    outline: none;
+
+}
+.details_container .bottom_container .right{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.details_container .bottom_container .right .top_details{
+    padding: 10px 50px;
+}
+.details_container .bottom_container .right .top_details p{
+    color: var(--light-mode-text);
+    font-weight: 800;
+
+}
+.details_container .bottom_container .right .middle_details{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.details_container .bottom_container .right .middle_details p{
+    color: var(--light-mode-text);
+    font-size: 16px;
+    font-weight: 600;
+    padding-block: 5px;
+}
+.details_container .bottom_container .right .middle_details p .details_items{
+    color: var(--light-mode-text);
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.details_container .bottom_container .right .bottom_details{
+    padding: 0px 50px;
+}
+.details_container .bottom_container .right .bottom_details p{
+    color: var(--light-mode-text);
+    font-size: 16px;
+    font-weight: 600;
+}
+.details_container .bottom_container .right .bottom_details p .brdr_ct{
+    color: var(--light-mode-text);
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+@media screen and (max-width : 1254px) {
+    .details_container .bottom_container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        /* justify-content: space-between; */
+        /* padding: 30px 50px; */
+    }
+}
+
+
+
